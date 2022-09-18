@@ -58,7 +58,7 @@
       text-align: center;
     }
 
-    .f-p {
+    .maintext {
       padding-top: 20px;
       font-weight: 700;
       font-size: 18px;
@@ -67,30 +67,32 @@
       margin: auto;
     }
 
-    .s-p {
+    .paragraph {
       margin: auto;
       width: 82%;
       font-weight: 400;
       color: hsl(220, 15%, 55%);
       padding-top: 20px;
       font-size: 15px;
+      margin-bottom: 50px;
     }
   </style>
 </head>
 
 <body>
-  <div class="main-box">
+  <main role="main" class="main-box">
     <img src="images/image-qr-code.png" alt="">
-    <p class="f-p">Improve your front-end skills by building projects</p>
+    <h1 role="contentinfo" class="maintext">Improve your front-end skills by building projects</h1>
 
-    <p class="s-p">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
+    <p role="contentinfo" class="paragraph">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </main>
 
 
-  <div class="attribution">
+  <footer role="doc-credits" class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Daryll Anthony Fortunado</a>.
-  </div>
+  </footer>
+
 </body>
 
 </html>
