@@ -1,98 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | QR code component</title>
 
-  <title>Frontend Mentor | QR code component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    * {
-      margin: 0;
-      box-sizing: border-box;
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: "Outfit", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
 
-    }
+      img {
+        display: block;
+        margin: auto;
+        width: 270px;
+        height: 270px;
+        border-radius: 15px;
+      }
 
-    body {
-      background-color: hsl(212, 45%, 89%);
-      font-family: 'Outfit', sans-serif;
-    }
+      .main-box {
+        position: relative;
+        margin: auto;
+        align-items: center;
+        background-color: hsl(0, 0%, 100%);
+        width: 300px;
+        height: 450px;
+        border-radius: 15px;
+        margin-top: 70px;
+        padding-top: 15px;
+      }
 
-    img {
-      display: block;
-      margin: auto;
-      width: 270px;
-      height: 270px;
-      border-radius: 15px;
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        padding-top: 100px;
+      }
 
-    }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
 
-    .main-box {
-      position: relative;
-      margin: auto;
-      align-items: center;
-      background-color: hsl(0, 0%, 100%);
-      width: 300px;
-      height: 450px;
-      border-radius: 15px;
-      margin-top: 70px;
-      padding-top: 15px;
-    }
+      p {
+        text-align: center;
+      }
 
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-      padding-top: 100px;
-    }
+      .maintext {
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        color: hsl(218, 44%, 22%);
+        width: 80%;
+        margin: auto;
+      }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
+      .paragraph {
+        margin: auto;
+        width: 82%;
+        font-weight: 400;
+        color: hsl(220, 15%, 55%);
+        padding-top: 20px;
+        font-size: 15px;
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
 
-    p {
-      text-align: center;
-    }
+  <body>
+    <main class="main-box">
+      <img src="images/image-qr-code.png" alt="" />
+      <h1 class="maintext">
+        Improve your front-end skills by building projects
+      </h1>
 
-    .maintext {
-      padding-top: 20px;
-      font-weight: 700;
-      font-size: 18px;
-      color: hsl(218, 44%, 22%);
-      width: 80%;
-      margin: auto;
-    }
+      <p class="paragraph">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </main>
 
-    .paragraph {
-      margin: auto;
-      width: 82%;
-      font-weight: 400;
-      color: hsl(220, 15%, 55%);
-      padding-top: 20px;
-      font-size: 15px;
-      margin-bottom: 50px;
-    }
-  </style>
-</head>
-
-<body>
-  <main class="main-box">
-    <img src="images/image-qr-code.png" alt="">
-    <h1 class="maintext">Improve your front-end skills by building projects</h1>
-
-    <p class="paragraph">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </main>
-
-
-  <!-- <footer class="attribution">
+    <!-- <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Daryll Anthony Fortunado</a>.
   </footer> -->
-
-</body>
-
+  </body>
 </html>
