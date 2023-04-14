@@ -37,7 +37,7 @@ body {
     text-align: center;
     color: hsl(218, 44%, 22%);
   }
-  /* .attribution {
+  .attribution {
     font-size: 11px;
     text-align: center;
     padding-top: 100px;
@@ -45,7 +45,7 @@ body {
 
   .attribution a {
     color: hsl(228, 45%, 44%);
-  } */
+  }
 
   p {
     padding: 3px;
